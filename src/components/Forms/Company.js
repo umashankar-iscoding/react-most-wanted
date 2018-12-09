@@ -9,7 +9,11 @@ import { injectIntl, intlShape } from 'react-intl'
 import { setDialogIsOpen } from 'rmw-shell/lib/store/dialogs/actions'
 import { withRouter } from 'react-router-dom'
 import { withTheme } from '@material-ui/core/styles'
+/*
 
+New Form component
+
+*/
 class Form extends Component {
   render() {
     const {
